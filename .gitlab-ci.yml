@@ -1,0 +1,69 @@
+variables:
+  OBJECTS_DIRECTORY: 'obj'
+  NUGET_PACKAGES_DIRECTORY: '.nuget'
+  SOURCE_CODE_PATH: '*/*/'
+  RUNTIME_ID: 'win-x86'
+  AUTO_MIGRATE: 'true'
+
+stages:
+  - build
+  - test
+  - deploy
+
+workflow:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+
+build:
+  stage: build
+  image: mcr.microsoft.com/dotnet/sdk:latest
+  cache:
+    key: "$CI_JOB_STAGE-$CI_COMMIT_REF_SLUG"
+    paths:
+      - '$SOURCE_CODE_PATH$OBJECTS_DIRECTORY/project.assets.json'
+      - '$SOURCE_CODE_PATH$OBJECTS_DIRECTORY/*.csproj.nuget.*'
+      - '*/$NUGET_PACKAGES_DIRECTORY'
+  before_script:
+  - 'cd BackEnd'
+  - 'dotnet restore BackEnd.sln --packages $NUGET_PACKAGES_DIRECTORY --runtime ${RUNTIME_ID}'
+  - 'cd FRMAPI'
+# Replace connection string in appsettings.json
+  - 'sed -i "/DefaultConnection/c\    \"DefaultConnection\": \"${DB_CONNECTION_STRING}\"" appsettings.json'
+#  - 'sed -i "s|~|;|g" appsettings.json'
+# Replace auto migration option in appsettings.json
+  - 'sed -i "/autoMigrate/c\    \"autoMigrate\": ${AUTO_MIGRATE}" appsettings.json'
+  script:
+    - 'cd ../'
+    - 'dotnet publish FRMAPI/FRMAPI.csproj -c Release --no-restore --runtime ${RUNTIME_ID} --no-self-contained -o ../tmp/build-artifact'
+  artifacts:
+    paths:
+      - 'tmp/build-artifact'
+
+test:
+  stage: test
+  image: docker/compose:latest
+  services:
+    - docker:dind
+  dependencies:
+    - build
+  script:
+    - 'cd BackEnd'
+    - 'docker-compose up --abort-on-container-exit'
+    - 'docker-compose down'
+
+deploy:
+  stage: deploy
+  image: mcr.microsoft.com/azure-cli
+  rules:
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+  dependencies:
+    - build
+    - test
+  before_script:
+    - 'pushd ./tmp/build-artifact'
+    - 'zip -r ../../publish.zip .'
+    - 'popd'
+    - 'az login --service-principal -u ${AZURE_SP_ID} -p ${AZURE_SP_SECRET} --tenant ${AZURE_TENANT}'
+  script:
+    - 'az webapp deploy --clean true --resource-group ${AZURE_RG} --name ${AZURE_APPSERVICE} --src-path publish.zip --type zip'

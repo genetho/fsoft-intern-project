@@ -1,0 +1,23 @@
+version: '3.4'
+
+services:
+  
+  frmdb:
+    image: "mcr.microsoft.com/mssql/server:2019-latest"
+    container_name: frmtestdb
+    ports:
+        - "1601:1433"
+    environment:
+     - MSSQL_SA_PASSWORD=YourStrong@Passw0rd
+     - ACCEPT_EULA=Y
+
+  xunittest:
+    image: xunittestimage
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: bash -c "cd xUnitTest && dotnet build xUnitTest.csproj && dotnet test xUnitTest.csproj"
+    ports:
+    - "8080:8080"
+    depends_on:
+    - frmdb

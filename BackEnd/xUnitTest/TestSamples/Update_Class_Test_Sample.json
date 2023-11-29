@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "name": "Fresher Develop Operation",
+    "classCode": "HN22_FRF_JAVA_1",
+    "status": 0,
+    //"idstatus": 2,
+    "startTimeLearning": "09:00:00",
+    "endTimeLearing": "11:00:00",
+    "reviewedBy": 2,
+    "reviewedOn": "2022-11-05",
+    "createdBy": 1,
+    "createdOn": "2022-11-05",
+    "approvedBy": 2,
+    "approvedOn": "2022-11-05",
+    "plannedAtendee": 1,
+    "actualAttendee": 1,
+    "acceptedAttendee": 1,
+    "currentSession": 1,
+    "currentUnit": 1,
+    "startYear": 2022,
+    "startDate": "2022-10-28",
+    "endDate": "2022-11-28",
+    "classNumber": 1,
+    "idProgram": 1,
+    "idTechnicalGroup": 1,
+    "idFSU": 1,
+    "idFSUContact": 1,
+    "idSite": 1,
+    "idUniversity": 1,
+    "idFormatType": 1,
+    "idProgramContent": 1,
+    "idAttendeeType": 1,
+    "activeDate": [
+      "2022-10-01",
+      "2022-10-02",
+      "2022-10-03"
+    ],
+    "idLocation": [
+      1,
+      2
+    ],
+    "idTrainee": [
+      2,
+      3
+    ],
+    "idAdmin": [
+      4
+    ],
+    "idMentor": [
+      3
+    ],
+    "syllabi": [
+      {
+        "idSyllabus": 2,
+        "numberOrder": 1
+      }
+    ]
+  }
+]

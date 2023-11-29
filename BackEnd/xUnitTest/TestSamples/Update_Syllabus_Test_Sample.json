@@ -1,0 +1,553 @@
+﻿[
+  {
+    "id": 1,
+    "name": "C# Language Program Update V1",
+    "code": "NPL",
+    "attendeeNumber": 20,
+    "version": 1,
+    "technicalrequirement": "﻿Trainees’ PCs need to have following software installed and run without any issues: \n• Microsoft SQL Server 2005 Express (in which the trainees can create and manipulate on their own database \n• Microsoft Visual Studio 2017 \n• Microsoft Office 2007 (Visio, Word, PowerPoint)",
+    "courseObjectives": "This topic is to introduce about C# programming language knowledge; adapt trainees with skills, lessons and practices which is specifically used in the Fsoft projects.",
+    "status": 1,
+    "trainingPrinciple": "Trainee who actively complete online learning according to MOOC links provided - At the end of the day, students complete Daily Quiz for 30 minutes - Trainer/Mentor supports answering questions, guiding exercises 1.5-2.0h/day - Trainer conduct the workshops - Trainees complete Assignments and Labs - Trainees have 1 final test in 4 hours(1 hour theory + 3 hours of practice)",
+    "description": null,
+    "hyperLink": null,
+    "idLevel": 2,
+    "levelName": "Fresher",
+    "assignmentSchema": {
+      "idSyllabus": 1,
+      "percentQuiz": 15,
+      "percentAssigment": 15,
+      "percentFinal": 70,
+      "percentTheory": 40,
+      "percentFinalPractice": 60,
+      "passingCriterial": 70
+    },
+    "sessions": [
+      {
+        "id": 1,
+        "name": "Session 1",
+        "index": 1,
+        "status": 1,
+        "units": [
+          {
+            "id": 1,
+            "name": ".NET Introduction",
+            "index": 1,
+            "status": 1,
+            "lessons": [
+              {
+                "id": 1,
+                "name": ".NET Introduction",
+                "duration": 30,
+                "idDeliveryType": 2,
+                "deliveryType": "Concept/Lecture",
+                "idFormatType": 2,
+                "formatType": "Online",
+                "idOutputStandard": 3,
+                "outputStandard": "H6SD",
+                "status": 1,
+                "materials": [
+                  {
+                    "id": 1,
+                    "name": ".NET Introduction overview.pdf",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 2,
+                    "name": ".NET Introduction pattern in lorem.pdf",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 3,
+                    "name": "What is future.youtube",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 4,
+                    "name": ".NET history.ppt",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "name": "Declaration and Assignment",
+                "duration": 30,
+                "idDeliveryType": 2,
+                "deliveryType": "Concept/Lecture",
+                "idFormatType": 1,
+                "formatType": "Offline",
+                "idOutputStandard": 3,
+                "outputStandard": "H6SD",
+                "status": 1,
+                "materials": [
+                  {
+                    "id": 5,
+                    "name": "learning-material-1.pdf",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 6,
+                    "name": "learning-material-2.pdf",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 7,
+                    "name": "learning-material-3.youtube",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 8,
+                    "name": "learning-material-4.ppt",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  }
+                ]
+              },
+              {
+                "id": 3,
+                "name": "Practice Time: Assignment/Mentoring",
+                "duration": 120,
+                "idDeliveryType": 3,
+                "deliveryType": "Guide/Review",
+                "idFormatType": 1,
+                "formatType": "Offline",
+                "idOutputStandard": 3,
+                "outputStandard": "H6SD",
+                "status": 1,
+                "materials": [
+                  {
+                    "id": 9,
+                    "name": "assignment-material-1.pdf",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 10,
+                    "name": "assignment-material-2.pdf",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Operator",
+            "index": 2,
+            "status": 1,
+            "lessons": [
+              {
+                "id": 4,
+                "name": "Operators",
+                "duration": 30,
+                "idDeliveryType": 2,
+                "deliveryType": "Concept/Lecture",
+                "idFormatType": 2,
+                "formatType": "Online",
+                "idOutputStandard": 3,
+                "outputStandard": "H6SD",
+                "status": 1,
+                "materials": [
+                  {
+                    "id": 11,
+                    "name": "learning-material-1.pdf",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 12,
+                    "name": "learning-material-2.pdf",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 13,
+                    "name": "learning-material-3.youtube",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  }
+                ]
+              },
+              {
+                "id": 5,
+                "name": "Comparation",
+                "duration": 30,
+                "idDeliveryType": 2,
+                "deliveryType": "Concept/Lecture",
+                "idFormatType": 1,
+                "formatType": "Offline",
+                "idOutputStandard": 3,
+                "outputStandard": "H6SD",
+                "status": 1,
+                "materials": [
+                  {
+                    "id": 14,
+                    "name": "learning-material-1.pdf",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 15,
+                    "name": "learning-material-2.pdf",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 16,
+                    "name": "learning-material-3.youtube",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 17,
+                    "name": "learning-material-4.ppt",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  }
+                ]
+              },
+              {
+                "id": 6,
+                "name": "Logical Operators",
+                "duration": 30,
+                "idDeliveryType": 3,
+                "deliveryType": "Guide/Review",
+                "idFormatType": 1,
+                "formatType": "Offline",
+                "idOutputStandard": 3,
+                "outputStandard": "H6SD",
+                "status": 1,
+                "materials": [
+                  {
+                    "id": 18,
+                    "name": "learning-material-1.pdf",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 19,
+                    "name": "learning-material-2.pdf",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 20,
+                    "name": "learning-material-3.youtube",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 21,
+                    "name": "learning-material-4.ppt",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  }
+                ]
+              },
+              {
+                "id": 7,
+                "name": "Practice Time: Assignment/Mentoring",
+                "duration": 120,
+                "idDeliveryType": 1,
+                "deliveryType": "Assignment/Lab",
+                "idFormatType": 2,
+                "formatType": "Online",
+                "idOutputStandard": 3,
+                "outputStandard": "H6SD",
+                "status": 1,
+                "materials": [
+                  {
+                    "id": 22,
+                    "name": "assignment-material-1.pdf",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 23,
+                    "name": "assignment-material-2.pdf",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Session 2",
+        "index": 2,
+        "status": 1,
+        "units": [
+          {
+            "id": 3,
+            "name": "Flow control",
+            "index": 1,
+            "status": 1,
+            "lessons": [
+              {
+                "id": 8,
+                "name": "Lesson 1",
+                "duration": 30,
+                "idDeliveryType": 2,
+                "deliveryType": "Concept/Lecture",
+                "idFormatType": 2,
+                "formatType": "Online",
+                "idOutputStandard": 3,
+                "outputStandard": "H6SD",
+                "status": 1,
+                "materials": [
+                  {
+                    "id": 24,
+                    "name": "learning-material-1.pdf",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 25,
+                    "name": "learning-material-2.pdf",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 26,
+                    "name": "learning-material-3.youtube",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 27,
+                    "name": "learning-material-4.ppt",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  }
+                ]
+              },
+              {
+                "id": 9,
+                "name": "Lesson 2",
+                "duration": 30,
+                "idDeliveryType": 2,
+                "deliveryType": "Concept/Lecture",
+                "idFormatType": 1,
+                "formatType": "Offline",
+                "idOutputStandard": 3,
+                "outputStandard": "H6SD",
+                "status": 1,
+                "materials": [
+                  {
+                    "id": 28,
+                    "name": "learning-material-1.pdf",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 29,
+                    "name": "learning-material-2.pdf",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 30,
+                    "name": "learning-material-3.youtube",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 31,
+                    "name": "learning-material-4.ppt",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Lesson 3",
+                "duration": 120,
+                "idDeliveryType": 3,
+                "deliveryType": "Guide/Review",
+                "idFormatType": 1,
+                "formatType": "Offline",
+                "idOutputStandard": 3,
+                "outputStandard": "H6SD",
+                "status": 1,
+                "materials": [
+                  {
+                    "id": 32,
+                    "name": "assignment-material-1.pdf",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 33,
+                    "name": "assignment-material-2.pdf",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Basic OOP",
+            "index": 2,
+            "status": 1,
+            "lessons": [
+              {
+                "id": 11,
+                "name": "Lesson 1",
+                "duration": 30,
+                "idDeliveryType": 2,
+                "deliveryType": "Concept/Lecture",
+                "idFormatType": 2,
+                "formatType": "Online",
+                "idOutputStandard": 3,
+                "outputStandard": "H6SD",
+                "status": 1,
+                "materials": [
+                  {
+                    "id": 34,
+                    "name": "learning-material-1.pdf",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 35,
+                    "name": "learning-material-2.pdf",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 36,
+                    "name": "learning-material-3.youtube",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  }
+                ]
+              },
+              {
+                "id": 12,
+                "name": "Lesson 2",
+                "duration": 30,
+                "idDeliveryType": 2,
+                "deliveryType": "Concept/Lecture",
+                "idFormatType": 1,
+                "formatType": "Offline",
+                "idOutputStandard": 3,
+                "outputStandard": "H6SD",
+                "status": 1,
+                "materials": [
+                  {
+                    "id": 37,
+                    "name": "learning-material-1.pdf",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 38,
+                    "name": "learning-material-2.pdf",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 39,
+                    "name": "learning-material-3.youtube",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 40,
+                    "name": "learning-material-4.ppt",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  }
+                ]
+              },
+              {
+                "id": 13,
+                "name": "Lesson 3",
+                "duration": 30,
+                "idDeliveryType": 3,
+                "deliveryType": "Guide/Review",
+                "idFormatType": 1,
+                "formatType": "Offline",
+                "idOutputStandard": 3,
+                "outputStandard": "H6SD",
+                "status": 1,
+                "materials": [
+                  {
+                    "id": 41,
+                    "name": "learning-material-1.pdf",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 42,
+                    "name": "learning-material-2.pdf",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 43,
+                    "name": "learning-material-3.youtube",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 44,
+                    "name": "learning-material-4.ppt",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  }
+                ]
+              },
+              {
+                "id": 14,
+                "name": "Lesson 4",
+                "duration": 120,
+                "idDeliveryType": 1,
+                "deliveryType": "Assignment/Lab",
+                "idFormatType": 2,
+                "formatType": "Online",
+                "idOutputStandard": 3,
+                "outputStandard": "H6SD",
+                "status": 1,
+                "materials": [
+                  {
+                    "id": 45,
+                    "name": "assignment-material-1.pdf",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  },
+                  {
+                    "id": 46,
+                    "name": "assignment-material-2.pdf",
+                    "hyperLink": "link-to-file.com",
+                    "status": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "historySyllabus": {
+      "idUser": 1,
+      "modifiedOn": "2022-11-14T08:24:53.363",
+      "action": "Create"
+    }
+  }
+]

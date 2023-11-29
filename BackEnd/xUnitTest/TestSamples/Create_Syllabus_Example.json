@@ -1,0 +1,732 @@
+[
+  {
+    "name": "C# Language Program V1",
+    "code": "NPL",
+    "attendeeNumber": 20,
+    "technicalRequirement": "\ufeffTrainees\u2019 PCs need to have following software installed and run without any issues: \n\u2022 Microsoft SQL Server 2005 Express (in which the trainees can create and manipulate on their own database \n\u2022 Microsoft Visual Studio 2017 \n\u2022 Microsoft Office 2007 (Visio, Word, PowerPoint)",
+    "courseObjectives": "This topic is to introduce about C# programming language knowledge; adapt trainees with skills, lessons and practices which is specifically used in the Fsoft projects.",
+    "trainingPrinciple": "Trainee who actively complete online learning according to MOOC links provided - At the end of the day, students complete Daily Quiz for 30 minutes - Trainer/Mentor supports answering questions, guiding exercises 1.5-2.0h/day - Trainer conduct the workshops - Trainees complete Assignments and Labs - Trainees have 1 final test in 4 hours(1 hour theory + 3 hours of practice)",
+    "idLevel": 2,
+    "assignmentSchema": {
+      "percentQuiz": 15,
+      "percentAssigment": 15,
+      "percentFinal": 70,
+      "percentTheory": 40,
+      "percentFinalPractice": 60,
+      "passingCriterial": 70
+    },
+    "sessions": [
+      {
+        "name": "Session 1",
+        "index": 1,
+        "units": [
+          {
+            "name": ".NET Introduction",
+            "index": 1,
+            "lessons": [
+              {
+                "name": ".NET Introduction",
+                "duration": 30,
+                "idDeliveryType": 2,
+                "idFormatType": 2,
+                "idOutputStandard": 3,
+                "materials": [
+                  {
+                    "name": ".NET Introduction overview.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": ".NET Introduction pattern in lorem.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "What is future.youtube",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": ".NET history.ppt",
+                    "hyperlink": "link-to-file.com"
+                  }
+                ]
+              },
+              {
+                "name": "Declaration and Assignment",
+                "duration": 30,
+                "idDeliveryType": 2,
+                "idFormatType": 1,
+                "idOutputStandard": 3,
+                "materials": [
+                  {
+                    "name": "learning-material-1.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-2.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-3.youtube",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-4.ppt",
+                    "hyperlink": "link-to-file.com"
+                  }
+                ]
+              },
+              {
+                "name": "Practice Time: Assignment/Mentoring",
+                "duration": 120,
+                "idDeliveryType": 3,
+                "idFormatType": 1,
+                "idOutputStandard": 3,
+                "materials": [
+                  {
+                    "name": "assignment-material-1.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "assignment-material-2.pdf",
+                    "hyperlink": "link-to-file.com"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Operator",
+            "index": 2,
+            "lessons": [
+              {
+                "name": "Operators",
+                "duration": 30,
+                "idDeliveryType": 2,
+                "idFormatType": 2,
+                "idOutputStandard": 3,
+                "materials": [
+                  {
+                    "name": "learning-material-1.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-2.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-3.youtube",
+                    "hyperlink": "link-to-file.com"
+                  }
+                ]
+              },
+              {
+                "name": "Comparation",
+                "duration": 30,
+                "idDeliveryType": 2,
+                "idFormatType": 1,
+                "idOutputStandard": 3,
+                "materials": [
+                  {
+                    "name": "learning-material-1.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-2.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-3.youtube",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-4.ppt",
+                    "hyperlink": "link-to-file.com"
+                  }
+                ]
+              },
+              {
+                "name": "Logical Operators",
+                "duration": 30,
+                "idDeliveryType": 3,
+                "idFormatType": 1,
+                "idOutputStandard": 3,
+                "materials": [
+                  {
+                    "name": "learning-material-1.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-2.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-3.youtube",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-4.ppt",
+                    "hyperlink": "link-to-file.com"
+                  }
+                ]
+              },
+              {
+                "name": "Practice Time: Assignment/Mentoring",
+                "duration": 120,
+                "idDeliveryType": 1,
+                "idFormatType": 2,
+                "idOutputStandard": 3,
+                "materials": [
+                  {
+                    "name": "assignment-material-1.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "assignment-material-2.pdf",
+                    "hyperlink": "link-to-file.com"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Session 2",
+        "index": 2,
+        "units": [
+          {
+            "name": "Flow control",
+            "index": 1,
+            "lessons": [
+              {
+                "name": "Lesson 1",
+                "duration": 30,
+                "idDeliveryType": 2,
+                "idFormatType": 2,
+                "idOutputStandard": 3,
+                "materials": [
+                  {
+                    "name": "learning-material-1.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-2.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-3.youtube",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-4.ppt",
+                    "hyperlink": "link-to-file.com"
+                  }
+                ]
+              },
+              {
+                "name": "Lesson 2",
+                "duration": 30,
+                "idDeliveryType": 2,
+                "idFormatType": 1,
+                "idOutputStandard": 3,
+                "materials": [
+                  {
+                    "name": "learning-material-1.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-2.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-3.youtube",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-4.ppt",
+                    "hyperlink": "link-to-file.com"
+                  }
+                ]
+              },
+              {
+                "name": "Lesson 3",
+                "duration": 120,
+                "idDeliveryType": 3,
+                "idFormatType": 1,
+                "idOutputStandard": 3,
+                "materials": [
+                  {
+                    "name": "assignment-material-1.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "assignment-material-2.pdf",
+                    "hyperlink": "link-to-file.com"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Basic OOP",
+            "index": 2,
+            "lessons": [
+              {
+                "name": "Lesson 1",
+                "duration": 30,
+                "idDeliveryType": 2,
+                "idFormatType": 2,
+                "idOutputStandard": 3,
+                "materials": [
+                  {
+                    "name": "learning-material-1.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-2.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-3.youtube",
+                    "hyperlink": "link-to-file.com"
+                  }
+                ]
+              },
+              {
+                "name": "Lesson 2",
+                "duration": 30,
+                "idDeliveryType": 2,
+                "idFormatType": 1,
+                "idOutputStandard": 3,
+                "materials": [
+                  {
+                    "name": "learning-material-1.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-2.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-3.youtube",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-4.ppt",
+                    "hyperlink": "link-to-file.com"
+                  }
+                ]
+              },
+              {
+                "name": "Lesson 3",
+                "duration": 30,
+                "idDeliveryType": 3,
+                "idFormatType": 1,
+                "idOutputStandard": 3,
+                "materials": [
+                  {
+                    "name": "learning-material-1.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-2.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-3.youtube",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-4.ppt",
+                    "hyperlink": "link-to-file.com"
+                  }
+                ]
+              },
+              {
+                "name": "Lesson 4",
+                "duration": 120,
+                "idDeliveryType": 1,
+                "idFormatType": 2,
+                "idOutputStandard": 3,
+                "materials": [
+                  {
+                    "name": "assignment-material-1.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "assignment-material-2.pdf",
+                    "hyperlink": "link-to-file.com"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "C# Language Program V2",
+    "code": "NPL",
+    "attendeeNumber": 20,
+    "technicalRequirement": "\ufeffTrainees\u2019 PCs need to have following software installed and run without any issues: \n\u2022 Microsoft SQL Server 2005 Express (in which the trainees can create and manipulate on their own database \n\u2022 Microsoft Visual Studio 2017 \n\u2022 Microsoft Office 2007 (Visio, Word, PowerPoint)",
+    "courseObjectives": "This topic is to introduce about C# programming language knowledge; adapt trainees with skills, lessons and practices which is specifically used in the Fsoft projects.",
+    "trainingPrinciple": "Trainee who actively complete online learning according to MOOC links provided - At the end of the day, students complete Daily Quiz for 30 minutes - Trainer/Mentor supports answering questions, guiding exercises 1.5-2.0h/day - Trainer conduct the workshops - Trainees complete Assignments and Labs - Trainees have 1 final test in 4 hours(1 hour theory + 3 hours of practice)",
+    "idLevel": 2,
+    "assignmentSchema": {
+      "percentQuiz": 15,
+      "percentAssigment": 15,
+      "percentFinal": 70,
+      "percentTheory": 40,
+      "percentFinalPractice": 60,
+      "passingCriterial": 70
+    },
+    "sessions": [
+      {
+        "name": "Session 1",
+        "index": 1,
+        "units": [
+          {
+            "name": ".NET Introduction",
+            "index": 1,
+            "lessons": [
+              {
+                "name": ".NET Introduction",
+                "duration": 30,
+                "idDeliveryType": 2,
+                "idFormatType": 2,
+                "idOutputStandard": 3,
+                "materials": [
+                  {
+                    "name": ".NET Introduction overview.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": ".NET Introduction pattern in lorem.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "What is future.youtube",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": ".NET history.ppt",
+                    "hyperlink": "link-to-file.com"
+                  }
+                ]
+              },
+              {
+                "name": "Declaration and Assignment",
+                "duration": 30,
+                "idDeliveryType": 2,
+                "idFormatType": 1,
+                "idOutputStandard": 3,
+                "materials": [
+                  {
+                    "name": "learning-material-1.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-2.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-3.youtube",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-4.ppt",
+                    "hyperlink": "link-to-file.com"
+                  }
+                ]
+              },
+              {
+                "name": "Practice Time: Assignment/Mentoring",
+                "duration": 120,
+                "idDeliveryType": 3,
+                "idFormatType": 1,
+                "idOutputStandard": 3,
+                "materials": [
+                  {
+                    "name": "assignment-material-1.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "assignment-material-2.pdf",
+                    "hyperlink": "link-to-file.com"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Operator",
+            "index": 2,
+            "lessons": [
+              {
+                "name": "Operators",
+                "duration": 30,
+                "idDeliveryType": 2,
+                "idFormatType": 2,
+                "idOutputStandard": 3,
+                "materials": [
+                  {
+                    "name": "learning-material-1.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-2.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-3.youtube",
+                    "hyperlink": "link-to-file.com"
+                  }
+                ]
+              },
+              {
+                "name": "Comparation",
+                "duration": 30,
+                "idDeliveryType": 2,
+                "idFormatType": 1,
+                "idOutputStandard": 3,
+                "materials": [
+                  {
+                    "name": "learning-material-1.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-2.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-3.youtube",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-4.ppt",
+                    "hyperlink": "link-to-file.com"
+                  }
+                ]
+              },
+              {
+                "name": "Logical Operators",
+                "duration": 30,
+                "idDeliveryType": 3,
+                "idFormatType": 1,
+                "idOutputStandard": 3,
+                "materials": [
+                  {
+                    "name": "learning-material-1.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-2.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-3.youtube",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-4.ppt",
+                    "hyperlink": "link-to-file.com"
+                  }
+                ]
+              },
+              {
+                "name": "Practice Time: Assignment/Mentoring",
+                "duration": 120,
+                "idDeliveryType": 1,
+                "idFormatType": 2,
+                "idOutputStandard": 3,
+                "materials": [
+                  {
+                    "name": "assignment-material-1.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "assignment-material-2.pdf",
+                    "hyperlink": "link-to-file.com"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Session 2",
+        "index": 2,
+        "units": [
+          {
+            "name": "Flow control",
+            "index": 1,
+            "lessons": [
+              {
+                "name": "Lesson 1",
+                "duration": 30,
+                "idDeliveryType": 2,
+                "idFormatType": 2,
+                "idOutputStandard": 3,
+                "materials": [
+                  {
+                    "name": "learning-material-1.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-2.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-3.youtube",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-4.ppt",
+                    "hyperlink": "link-to-file.com"
+                  }
+                ]
+              },
+              {
+                "name": "Lesson 2",
+                "duration": 30,
+                "idDeliveryType": 2,
+                "idFormatType": 1,
+                "idOutputStandard": 3,
+                "materials": [
+                  {
+                    "name": "learning-material-1.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-2.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-3.youtube",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-4.ppt",
+                    "hyperlink": "link-to-file.com"
+                  }
+                ]
+              },
+              {
+                "name": "Lesson 3",
+                "duration": 120,
+                "idDeliveryType": 3,
+                "idFormatType": 1,
+                "idOutputStandard": 3,
+                "materials": [
+                  {
+                    "name": "assignment-material-1.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "assignment-material-2.pdf",
+                    "hyperlink": "link-to-file.com"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Basic OOP",
+            "index": 2,
+            "lessons": [
+              {
+                "name": "Lesson 1",
+                "duration": 30,
+                "idDeliveryType": 2,
+                "idFormatType": 2,
+                "idOutputStandard": 3,
+                "materials": [
+                  {
+                    "name": "learning-material-1.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-2.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-3.youtube",
+                    "hyperlink": "link-to-file.com"
+                  }
+                ]
+              },
+              {
+                "name": "Lesson 2",
+                "duration": 30,
+                "idDeliveryType": 2,
+                "idFormatType": 1,
+                "idOutputStandard": 3,
+                "materials": [
+                  {
+                    "name": "learning-material-1.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-2.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-3.youtube",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-4.ppt",
+                    "hyperlink": "link-to-file.com"
+                  }
+                ]
+              },
+              {
+                "name": "Lesson 3",
+                "duration": 30,
+                "idDeliveryType": 3,
+                "idFormatType": 1,
+                "idOutputStandard": 3,
+                "materials": [
+                  {
+                    "name": "learning-material-1.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-2.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-3.youtube",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "learning-material-4.ppt",
+                    "hyperlink": "link-to-file.com"
+                  }
+                ]
+              },
+              {
+                "name": "Lesson 4",
+                "duration": 120,
+                "idDeliveryType": 1,
+                "idFormatType": 2,
+                "idOutputStandard": 3,
+                "materials": [
+                  {
+                    "name": "assignment-material-1.pdf",
+                    "hyperlink": "link-to-file.com"
+                  },
+                  {
+                    "name": "assignment-material-2.pdf",
+                    "hyperlink": "link-to-file.com"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

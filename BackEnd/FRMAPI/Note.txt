@@ -1,0 +1,32 @@
+{
+      "id": 1,
+      "name": "Fresher Develop Operation",
+      "classNumber": 1,
+      "idProgram": 50,
+      "idTechnicalGroup": 1,
+      "idFSU": 1,
+      "idFSUContact": 1,
+      "idSite": 1,
+      "idUniversity": 1,
+      "idFormatType": 1,
+      "idProgramContent": 1,
+      "idAttendeeType": 1,
+      "activeDate": [
+        ], 
+      "idLocation": [
+         
+         ],
+      "idTrainee": [
+      
+         ],
+      "idAdmin": [
+      
+         ],
+      "idMentor": [
+      
+         ],
+       "syllabi": [
+       
+        ]     
+ 
+   }
